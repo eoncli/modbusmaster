@@ -1,0 +1,11 @@
+{
+    "name": "modbusmaster",
+    "author": "eon",
+    "url": "official",
+    "type": "library",
+    "version": "1.0.0",
+    "targetPlatforms": [
+        "stm32l0",
+        "stm32g0"
+    ]
+}
