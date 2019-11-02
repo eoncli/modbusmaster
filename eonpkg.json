@@ -1,11 +1,13 @@
 {
-    "name": "modbusmaster",
-    "author": "eon",
-    "url": "official",
-    "type": "library",
-    "version": "1.0.0",
-    "targetPlatforms": [
-        "stm32l0",
-        "stm32g0"
-    ]
+  "name": "modbusmaster",
+  "author": "eon",
+  "url": "official",
+  "type": "library",
+  "version": "1.0.1",
+  "targetPlatforms": ["stm32l0", "stm32g0"],
+  "configMacros": [
+    "MBSER_WRITE=uart1_write",
+    "MBSER_AVAILABLE=uart1_available",
+    "MBSER_READ=uart1_read"
+  ]
 }

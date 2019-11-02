@@ -28,11 +28,13 @@ protocol).
 #define __MODBUS_MASTER_H_
 
 #include "eonOS.h"
+#include "modbusmaster_defines.h"
 
-// Uart
+#ifndef MBSER_WRITE
 #define MBSER_WRITE uart1_write
 #define MBSER_AVAILABLE uart1_available
 #define MBSER_READ uart1_read
+#endif
 
 // Response codes
 #define MB_SUCCESS 0x00
