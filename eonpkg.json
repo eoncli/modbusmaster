@@ -1,12 +1,12 @@
 {
-    "name": "modbusmaster",
-    "author": "EonTeam",
-    "type": "library",
-    "platforms": ["eoncli/stm32l0", "eoncli/stm32g0"],
-    "configFile": "modbusmaster_defines",
-    "configMacros": [
-        "MBSER_WRITE=uart1_write",
-        "MBSER_AVAILABLE=uart1_available",
-        "MBSER_READ=uart1_read"
-    ]
+  "name": "modbusmaster",
+  "author": "EonTeam",
+  "type": "library",
+  "platforms": ["eonteam/stm32l0", "eonteam/stm32g0"],
+  "configFile": "modbusmaster_defines",
+  "configMacros": [
+    "MBSER_WRITE=uart1_write",
+    "MBSER_AVAILABLE=uart1_available",
+    "MBSER_READ=uart1_read"
+  ]
 }
